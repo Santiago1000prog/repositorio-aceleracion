@@ -1,8 +1,13 @@
 import math_mod
+import salida
 
 
 def suma(a: int, b: int) -> int:
     return a + b
+
+
+def resta(a: int, b: int) -> int:
+    return a - b
 
 
 def pot(base: int, ex: int) -> int:
@@ -14,3 +19,4 @@ def pot(base: int, ex: int) -> int:
 
 print(f"{math_mod.area_circulo(10):.2f}")
 print(pot(9, 3))
+salida.mostrar(pot(3, 2), "Nuevo saludo")
