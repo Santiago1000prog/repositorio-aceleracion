@@ -20,3 +20,4 @@ def pot(base: int, ex: int) -> int:
 print(f"{math_mod.area_circulo(17):.2f}")
 print(pot(2, 3))
 salida.mostrar(pot(3, 2), "Saludo en rama")
+math_mod.mostrar_area(23.2621)
