@@ -1,3 +1,3 @@
 def mostrar(*args):
     for arg in args:
-        print("Mostrando", arg)
+        print("Mostrando mensaje: ", arg)
